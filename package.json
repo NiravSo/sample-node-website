@@ -1,14 +1,14 @@
 {
-
   "name": "expressjs",
   "version": "1.0.0",
   "description": "Files for building the website",
   "main": "app/app.js",
-  "scripts":{
-
+  "scripts": {
     "start": "node app/app.js"
-
   },
   "author": "Iqbal Khan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
